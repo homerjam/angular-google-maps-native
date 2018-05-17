@@ -6,7 +6,7 @@
     $q, $parse, $timeout,
     forEach = angular.forEach,
     isDefined = angular.isDefined,
-    lowercase = angular.lowercase,
+    lowercase = function (str) { return str.toLowerCase() },
     gmAddress = 'gmAddress';
 
 
