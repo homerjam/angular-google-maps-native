@@ -1,4 +1,4 @@
-/*! angular-google-maps-native v2.0.0 | 2015-08-09 | DEMONTE Jean-Baptiste | jbdemonte@gmail.com | GPL v3 */
+/*! angular-google-maps-native v2.0.1 |  | DEMONTE Jean-Baptiste | jbdemonte@gmail.com | GPL v3 */
 (function(angular, undefined) {
   'use strict';
 
@@ -7,7 +7,7 @@
     $q, $parse, $timeout,
     forEach = angular.forEach,
     isDefined = angular.isDefined,
-    lowercase = angular.lowercase,
+    lowercase = function (str) { return str.toLowerCase() },
     gmAddress = 'gmAddress';
 
 
